@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "metrics", "metrics.csproj", "{BF993B68-B81A-4989-9395-1C086582F699}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{082F36F6-1B86-4317-AEB3-FEDE69088523}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "metricsTests", "..\metricsTests\metricsTests.csproj", "{976856B4-65E3-4CC8-A7FE-B30259BD84D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{BF993B68-B81A-4989-9395-1C086582F699}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF993B68-B81A-4989-9395-1C086582F699}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF993B68-B81A-4989-9395-1C086582F699}.Release|Any CPU.Build.0 = Release|Any CPU
+		{976856B4-65E3-4CC8-A7FE-B30259BD84D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{976856B4-65E3-4CC8-A7FE-B30259BD84D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{976856B4-65E3-4CC8-A7FE-B30259BD84D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{976856B4-65E3-4CC8-A7FE-B30259BD84D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{976856B4-65E3-4CC8-A7FE-B30259BD84D6} = {082F36F6-1B86-4317-AEB3-FEDE69088523}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4CDC251E-AAD9-43B2-85D2-00A03E636778}
